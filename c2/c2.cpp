@@ -25,7 +25,6 @@ static int antiQEMU()
 	__except (EXCEPTION_EXECUTE_HANDLER){
 		return 0;
 	}
-	exit(1);
 }
 
 std::wstring genDomain()
